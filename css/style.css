@@ -256,6 +256,7 @@ body,
     flex-direction: column;
     }
     .row.container {
+        margin-top: 100px;
         width: 100% !important;
         height: 100% !important;
     }
