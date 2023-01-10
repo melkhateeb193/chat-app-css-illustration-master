@@ -119,8 +119,9 @@ overflow: hidden;
 .leftTitle{
 font-weight: 500;
 background: linear-gradient(237.59deg, #e844ff 41.82%, #8739ff 91.74%);
--webkit-text-fill-color: transparent;
-background-clip: text;
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 opacity: 95%
 }
 .priceList1{
@@ -156,8 +157,9 @@ span{
 }
 a {
     background: linear-gradient(237.59deg, #e844ff 41.82%, #8739ff 91.74%);
--webkit-text-fill-color: transparent;
-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 opacity: 95% ;
 text-decoration: none;
 }
@@ -256,7 +258,7 @@ body,
     flex-direction: column;
     }
     .row.container {
-        margin-top: 100px;
+        margin-top: 70px;
         width: 100% !important;
         height: 100% !important;
     }
